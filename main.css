@@ -1,0 +1,376 @@
+body {
+    background-color: #1D1D1D;
+    margin: 1.5%;
+    color: azure;
+    zoom: 50%;
+}
+a:link {
+    color: azure;
+    text-decoration: none;
+}
+a:visited {
+    color: azure;
+    text-decoration: none;
+}
+a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
+#home-page {
+    background-image: url(images/Picture2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% -30%;
+}
+#home-page-icon {
+    width: 4%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+}
+.home-page-menu-table {
+    border:solid; 
+    border-width:0px 6px 6px 0px;
+    border-color: aliceblue;
+    font-size: 50px;
+    padding: 40px;
+}
+.home-page-menu {
+    border:solid; 
+    border-width:6px 0px 0px 6px;
+    border-color: aliceblue;
+    width: 90%;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+#home-page-texts {
+    text-align: center;
+    margin-top: 10%;
+}
+#home-page-texts-class {
+    position: relative;
+    font-size: 110px;
+}
+#home-page-texts-school {
+    font-size: 50px;
+    margin-top: 0.75%;
+}
+#home-page-footer {
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    bottom: 3%;
+    width: auto;
+    right: 1.5%;
+    left: 1.5%;
+}
+footer {
+    position: relative;
+    margin-top: 5%;
+    font-size: 50px;
+    text-align: center;
+}
+#head-teacher-title {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 3%;
+}
+#head-teacher-contents {
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 70px;
+}
+#head-teacher-contents-name {
+    font-size: 150px;
+    margin-top: 1%;
+}
+#head-teacher-picture {
+    text-align: center;
+}
+#head-teacher-button-upper {
+    text-align: center;
+    line-height: 65px;
+}
+#head-teacher-button-lower {
+    text-align: center;
+    line-height: 130px;
+}
+#head-teacher-buttons-div {
+    margin-top: 1%;
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+}
+#head-teacher-footer {
+    position: relative;
+    margin-top: 5%;
+}
+#class-title {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 3%;
+}
+#class-class-flag-div {
+    width: 28%;
+    float: left;
+}
+#class-class-logo-div {
+    width: 33.3%;
+    float: left;
+    margin-top: -1%;
+    margin-left: 10%;
+}
+#class-class-motto-div {
+    float: left;
+    margin-left: 1%;
+    margin-top: -2%;
+}
+#class-main {
+    margin-top: 7%;
+}
+#class-class-logo-picture {
+    width: 91%;
+    margin-left: 10%;
+}
+#class-class-motto-picture {
+    width: 160%;
+    margin-left: 30%;
+    margin-top: -25%;
+}
+#class-class-flag-text {
+    text-align: center;
+    font-size: 70px;
+    line-height: 200px;
+}
+#class-class-logo-text {
+    text-align: center;
+    margin-right: -20%;
+    font-size: 70px;
+}
+#class-class-motto-text {
+    text-align: center;
+    margin-left: 60%;
+    font-size: 70px;
+    width: 100%;
+}
+#class-footer {
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+}
+#class-leaders-title-div {
+    width: 50%;
+    text-align: center;
+    font-size: 120px;
+    margin-top: 2%;
+}
+#class-leaders-phoebe-text {
+    font-size: 100px;
+    margin-top: 15%;
+}
+#class-leaders-phoebe-picture {
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    right: 1.5%;
+}
+#class-leaders-carol-text {
+    font-size: 100px;
+    margin-top: 25%;
+}
+#class-leaders-carol-picture {
+    position: absolute;
+    width: 40%;
+    height: 50%;
+    top: 70%;
+    right: 1.5%;
+}
+#class-leaders-footer {
+    position: absolute;
+    width: 100%;
+    top: 130%;
+}
+#foreign-teachers-main {
+    /* background-color: bisque; */
+    text-align: center;
+}
+#foreign-teachers-title {
+    text-align: center;
+    font-size: 150px;
+    margin-top: 3%;
+}
+.foreign-teachers-teachers-divs {
+    /* background-color: brown; */
+    width: 33%;
+    display: inline-block;
+
+}
+#foreign-teachers-upper {
+    /* background-color: aqua; */
+    margin-top: 2%;
+}
+#foreign-teachers-lower {
+    /* background-color: cadetblue; */
+    margin-top: 2%;
+}
+/* #foreign-teachers-melody-div {
+
+}
+#foreign-teachers-misha-div {
+
+}
+#foreign-teachers-connor-div {
+
+}
+#foreign-teachers-ray-div {
+
+}
+#foreign-teachers-frank-div {
+
+}
+#foreign-teachers-grant-div {
+
+} */
+.foreign-teachers-texts-divs {
+    font-size: 40px;
+}
+#foreign-teachers-footer {
+    margin-top: -2%;
+}
+#about-logo-picture {
+    margin-left: 60%;
+    margin-top: 5%;
+}
+#about-department-picture {
+    margin-left: 60%;
+    margin-top: 3%;
+}
+#about-title {
+    font-size: 170px;
+    margin-top: 3%;
+    text-align: center;
+}
+#about-texts {
+    font-size: 70px;
+    float: left;
+}
+#about-text-school {
+    margin-top: 30%;
+}
+#about-text-department {
+    margin-top: 70%;
+}
+#about-text-contact {
+    margin-top: 30%;
+}
+#about-footer {
+    margin-top: 15%;
+}
+#grades-title {
+    font-size: 170px;
+    text-align: center;
+    margin-top: 3%;
+}
+.grades-subject-divs {
+    background-color: cadetblue;
+    margin-top: 7%;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    text-align: center;
+}
+#grades-texts {
+    font-size: 120px;
+}
+a.grades-texts-a:hover {
+    color:crimson
+}
+#grades-footer {
+    margin-top: 45%;
+}
+#grades-toefl {
+    background-image: url(images/Picture\ 22.png);
+    background-size: 100%;
+    background-color: rgba(95, 158, 160, 0.6);
+}
+#grades-ielts {
+    background-image: url(images/Picture\ 21.png);
+    background-size: 100%;
+    background-color: rgba(95, 158, 160, 0.6);
+}
+#grades-gac {
+    background-image: url(images/Picture\ 20.png);
+    background-size: 50%;
+    background-color: rgba(95, 158, 160, 0.6);
+}
+#grades-act {
+    background-image: url(images/Picture19.png);
+    background-size: 100%;
+    background-color: rgba(95, 158, 160, 0.6);
+}
+#class-flag-title {
+    text-align: center;
+    font-size: 170px;
+    margin-top: 3%;
+}
+#class-flag-texts-title {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+}
+#class-flag-texts-content {
+    font-size: 70px;
+    text-align: justify;
+    margin-top: 3%;
+    background-size: 100%;
+    background-attachment: fixed;
+    line-height: 200%;
+    font-weight: bold;
+}
+#class-flag-main {
+    color:rgb(255, 0, 0)
+}
+#class-flag-container {
+    background-image: url(images/Picture4.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#phoebe-title {
+    font-size: 170px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+#phoebe-content {
+    margin-right: 1.5%;
+    font-size: 70px;
+    width: 50%;
+    text-align: justify;
+    float: left;
+    margin-bottom: 3%;
+    line-height: 150%;
+    word-spacing: 70%;
+    background-color: darkblue;
+    padding: 1.5%;
+    border-radius: 100px;
+    border: 5px solid blanchedalmond;
+}
+#phoebe-pictures {
+    margin-top: 3%;
+    float: left;
+    width: 44%;
+}
+#phoebe-footer {
+    clear: left;
+}
+#phoebe-picture-upper {
+    width: 100%;
+    margin-bottom: 3%;
+}
+#phoebe-picture-lower {
+    width: 100%;
+}
