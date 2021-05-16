@@ -1,0 +1,21 @@
+#main {
+    /* background-color: aquamarine; */
+    text-align: center;
+    margin-top: 5vh;
+}
+#main-img {
+    background-image: url(./img/poppy-six.jpg);
+    /* background-color: blue; */
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 3vh;
+}
+#main-title {
+    font-size: 5vh;
+}
+#main-button {
+    height: 5vh;
+    line-height: 5vh;
+}
