@@ -1,0 +1,54 @@
+* {
+    border-radius: 3vh;
+}
+body {
+    /* margin: 5vh; */
+    text-align: center; 
+    word-wrap: normal;
+    background-color: lightskyblue;
+    font-family: Bradley Hand;
+}
+.elements {
+    display: inline-block;
+    width: 15vw;
+    background-color: aqua;
+    text-align: center;
+    font-size: 5vh;
+    line-height: 10vh;
+    grid-gap: 5vh;
+    border-radius: 0%;
+}
+#menu {
+    text-align: center;
+    grid-area: menu;
+}
+#main {
+    display: grid;
+    grid-template-columns: 45vw 50vw;
+    grid-template-rows: 15vh 50vh 85vh;
+    grid-template-areas: 
+        "menu menu"
+        "one two"
+        "three two";
+    /* text-align: center; */
+    width: 100%;
+    grid-gap: 5vh;
+}
+#block-one {
+    background-color: white;
+    grid-area: one;
+    font-size: 4.5vh;
+}
+#block-two {
+    background-color: white;
+    grid-area: two;
+    font-size: 4.5vh;
+    padding: 1vh;
+}
+#block-three {
+    background-color: white;
+    grid-area: three;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
