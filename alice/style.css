@@ -37,12 +37,12 @@ body {
 #block-one {
     background-color: white;
     grid-area: one;
-    font-size: 4.5vh;
+    font-size: 4vh;
 }
 #block-two {
     background-color: white;
     grid-area: two;
-    font-size: 4.5vh;
+    font-size: 4vh;
     padding: 1vh;
 }
 #block-three {
