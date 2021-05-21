@@ -37,12 +37,12 @@ body {
 #block-one {
     background-color: white;
     grid-area: one;
-    font-size: 4vh;
+    font-size: 4.5vh;
 }
 #block-two {
     background-color: white;
     grid-area: two;
-    font-size: 4vh;
+    font-size: 4.5vh;
     padding: 1vh;
 }
 #block-three {
@@ -51,4 +51,48 @@ body {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+#hp-main {
+    display: grid;
+    grid-template-columns: repeat (3 20vw);
+    grid-template-rows: repeat (3 20vh);
+    grid-template-areas: 
+        "title title title"
+        "connor frank grant"
+        "melody misha ray";
+    grid-gap: 3vh;
+}
+#title {
+    grid-area: title;
+    font-size: 10vh;
+    margin: 3vh;
+}
+#connor {
+    grid-area: connor;
+}
+#frank {
+    grid-area: frank;
+}
+#grant {
+    grid-area: grant;
+}
+#melody {
+    grid-area: melody;
+}
+#misha {
+    grid-area: misha;
+}
+#ray {
+    grid-area: ray;
+}
+.img {
+    width: 35vh;
+}
+.txt {
+    font-size: 3vh;
+}
+#footer {
+    margin: 5vh;
+    text-align: center;
+    font-size: 3vh;
 }
