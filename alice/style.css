@@ -1,6 +1,9 @@
 * {
     border-radius: 3vh;
 }
+a:link {
+    text-decoration: none;
+}
 body {
     /* margin: 5vh; */
     text-align: center; 
@@ -10,13 +13,28 @@ body {
 }
 .elements {
     display: inline-block;
-    width: 15vw;
+    width: 10vw;
     background-color: aqua;
     text-align: center;
     font-size: 5vh;
     line-height: 10vh;
     grid-gap: 5vh;
     border-radius: 0%;
+}
+#hp-icon-div {
+    /* height: 10vh; */
+    color: aqua;
+    background-color:aqua;
+
+}
+#hp-icon {
+    background-image: url(./img/home.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0);
 }
 #menu {
     text-align: center;
