@@ -24,7 +24,7 @@
     padding: 5vh 2vw;
 }
 .img-container img {
-    width: 15vw;
+    height: 100vh;
     cursor: pointer;
 }
 .window {
